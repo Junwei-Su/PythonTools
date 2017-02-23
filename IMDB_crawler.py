@@ -8,6 +8,8 @@
 import string
 import re
 import urllib2
+import matplotlib.pyplot as plt
+import numpy as np
 
 class webSpider(object) :
     
@@ -21,7 +23,7 @@ class webSpider(object) :
     
     def __init__(self) :
         self.page = 1
-        self.cur_url = "http://www.imdb.com/"
+        self.cur_url = "http://www.imdb.com/chart/top"
         self.datas = []
         self.top_num = 1
         print "Preparing for the crawler..."
@@ -32,7 +34,7 @@ class webSpider(object) :
         """
         url = self.cur_url
         try :
-            page = urllib2.urlopen(url);
+            page = urllib2.urlopen(url)
         except urllib2.URLError, e :
             if hasattr(e, "code"):
                 print "The server couldn't fulfill the request."
@@ -43,6 +45,59 @@ class webSpider(object) :
 
         page_content = page.read();
         return page_content;
+
+    def extract_lister(self,my_page):
+        """
+        get the lister content
+        """
+        list = re.findall(r'<tbody class="lister-list">(.*?)</tbody>', my_page, re.S)
+        list_string  = ''.join(str(e) for e in list)
+        return list_string
+    
+    
+    def get_Mtitle(self,list_string):
+        """
+        get all the movie titles from the current page
+        """
+        titles=[];
+        titles_items = re.findall(r'<td class="titleColumn">(.*?)</td>', list_string, re.S)
+        for item in titles_items:
+            title = re.search('(?<=>).*?(?=</a>)', item).group(0)
+            titles.append(str(title))
+        return titles
+    
+    def get_years(self,list_string):
+        """
+        get the year the movies produced
+        """
+        years=[];
+        year_items = re.findall(r'<td class="titleColumn">(.*?)</td>', list_string, re.S)
+        for item in year_items:
+            year = re.search('(?<=>).*?(?=</span>)', item).group(0)
+            year = re.search('(?<=\()[0-9]{4}(?=\))',year).group(0)
+            years.append(int(year))
+        return years
+    
+    def get_yearHist(self, years):
+        plt.hist(years)
+        plt.title("IMDB Top 250 Movies Year of production Histogram")
+        plt.xlabel("Year")
+        plt.ylabel("Frequency")
+        fig = plt.gcf()
+        plt.show()
+    
+
+    def start_spider(self) :
+        """
+        Entry of the crawling process
+        """
+        my_page = self.get_page(self.page)
+        list = self.extract_lister(my_page)
+        years = self.get_years(list)
+        titles = self.get_Mtitle(list)
+        self.get_yearHist(years)
+
+
 
 
 def main() :
@@ -55,7 +110,7 @@ def main() :
         ###############################
         """
     my_spider = webSpider()
-    print(my_spider.get_page(my_spider.page));
+    my_spider.start_spider()
 
 if __name__ == '__main__':
     main()
