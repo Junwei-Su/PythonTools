@@ -78,6 +78,18 @@ class webSpider(object) :
             years.append(int(year))
         return years
     
+    def get_top100years(self,list_string):
+        """
+            get the year the movies produced
+            """
+        years=[];
+        year_items = re.findall(r'<td class="titleColumn">(.*?)</td>', list_string, re.S)
+        for i in range(1,100):
+            year = re.search('(?<=>).*?(?=</span>)', year_items[i]).group(0)
+            year = re.search('(?<=\()[0-9]{4}(?=\))',year).group(0)
+            years.append(int(year))
+        return years
+    
     def get_yearHist(self, years):
         plt.hist(years)
         plt.title("IMDB Top 250 Movies Year of production Histogram")
