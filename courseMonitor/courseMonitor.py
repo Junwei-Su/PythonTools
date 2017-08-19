@@ -2,7 +2,14 @@ import requests
 from bs4 import BeautifulSoup
 from twilio.rest import Client
 import time
+import json
+import copy
 
+account_sid = "ACccaaa3e15321dc811ac50aeef6de8bb4"
+auth_token = "72b347d88956ec7b733a9e562c146d15"
+phone_from = "+16047061261"
+client = Client(account_sid, auth_token)
+message_temp = "Great news, there is open seat in "
 
 def get_open_seats(subject,course,section):
     URL = 'https://courses.students.ubc.ca/cs/main?pname=subjarea&tname=subjareas&req=5&dept='+subject+'&course='+course+'&section='+section
@@ -13,35 +20,37 @@ def get_open_seats(subject,course,section):
     for row in soup.find_all('tr'):
         cols = [e.text for e in row.find_all('td')]
         if cols:
-            if cols[0] == 'General Seats Remaining:':
-                general = {'general':int(cols[1])}
-                courses.update(general)
+            if cols[0] == 'Total Seats Remaining:':
+                seat_num = {'seat':int(cols[1])}
+                courses.update(seat_num)
 
-            if cols[0] == 'Restricted Seats Remaining*:':
-                restricted = {'restricted':int(cols[1])}
-                courses.update(restricted)
     return courses
 
-account_sid = "AC1e8afac286908f2faf3163108dd90dc8"
-auth_token = "9e58e584f3ede5b2313bdeb29469c53f"
-phone_from = "+16047061473"
-phone_to   = "+16043633930"
-client = Client(account_sid, auth_token)
+def update():
+    with open("subscribeList.json", "r") as slr:
+        sub_list = json.load(slr)
+    
+    subcribe_list = copy.deepcopy(sub_list)
+    course_list   = subcribe_list.keys()
 
-message_temp = "Great news, there is open seat in "
+    print(course_list)
+    
+    for course in course_list:
+        element = course.split(",")
+        seat    = get_open_seats(element[0],element[1],element[2])
+        if seat["seat"] != 0:
+            for phone_to in subcribe_list.get(course):
+                message = message_temp+ course + " available seat: " + str(seat["seat"])
+                send    = client.api.account.messages.create(to=phone_to,
+                                                          from_=phone_from,
+                                                          body=message)
+            del sub_list[course]
+
+    with open("subscribeList.json", "w") as slw:
+        json.dump(sub_list, slw)
+    return
 
 if __name__ == '__main__':
-    subject = 'STAT'
-    course  = '406'
-    section = '101'
-    course_str = subject + " " + course + " " + section
     while 1:
-        courses = get_open_seats(subject,course,section)
-        print("monitoring: " + course_str)
-        if courses["restricted"] != 0 or courses["general"] != 0:
-            message = message_temp+ course_str + " General: " + str(courses["general"]) + " Restricted: " + str(courses["restricted"])
-            send = client.api.account.messages.create(to=phone_to,
-                                                      from_=phone_from,
-                                                      body=message)
-            break
+        update()
         time.sleep(60)
