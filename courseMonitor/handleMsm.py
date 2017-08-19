@@ -4,9 +4,8 @@ from twilio.twiml.messaging_response import MessagingResponse
 import json
 
 
-twilio_account_sid = 'ACccaaa3e15321dc811ac50aeef6de8bb4'
-my_number = '+16047061261'
-#need a way to share this list with course monitor
+twilio_account_sid = 'AC*****'
+my_number = '+****'
 
 app = Flask(__name__)
 

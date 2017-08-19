@@ -5,9 +5,9 @@ import time
 import json
 import copy
 
-account_sid = "ACccaaa3e15321dc811ac50aeef6de8bb4"
-auth_token = "72b347d88956ec7b733a9e562c146d15"
-phone_from = "+16047061261"
+account_sid = "AC***********"
+auth_token = "************"
+phone_from = "+1**************"
 client = Client(account_sid, auth_token)
 message_temp = "Great news, there is open seat in "
 
