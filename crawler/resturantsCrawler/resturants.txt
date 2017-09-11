@@ -1,0 +1,100 @@
+Fable,4.5 star rating,1944 W 4th AvenueVancouver, BC V6J 1MS,524,$$,(604) 732-1322
+Tuc Craft Kitchen,4.5 star rating,60 W Cordova StreetVancouver, BC V6B 1C9,615,$$,(604) 559-8999
+Delhi 6 Indian Bistro,5.0 star rating,1766 W 7th AvenueVancouver, BC V6J 4Z9,20,$$,(604) 742-3311
+The Flying Pig,4.0 star rating,1168 Hamilton StreetVancouver, BC V6B 2S2,790,$$,(604) 568-1344
+Guu with Garlic,4.5 star rating,1698 Robson StreetVancouver, BC V6G 1C7,705,$$,(604) 685-8678
+Medina Cafe,4.0 star rating,780 Richards StreetVancouver, BC V6B 3A4,1572,$$,(604) 879-3114
+Banter Room,4.0 star rating,1039 Mainland StVancouver, BC V6B 5P9,29,$$,(604) 565-1039
+Pizza Viaggio,5.0 star rating,721 Denman StVancouver, BC V6G 2L6,3,$$,(604) 707-4992
+Blue Water Cafe,4.5 star rating,1095 Hamilton StVancouver, BC V6B 5T4,649,$$$$,(604) 688-8078
+The Flying Pig,4.0 star rating,102 Water StreetVancouver, BC V6B 2K8,558,$$,(604) 559-7968
+Ritual,4.0 star rating,774 Denman StreetVancouver, BC V6G 1C9,79,$$,(604) 428-7722
+Yuzu Shokutei,4.5 star rating,854 Denman StreetVancouver, BC V6G 2L8,52,$$,(778) 379-3456
+Delhi 6 Indian Bistro,5.0 star rating,1766 W 7th AvenueVancouver, BC V6J 4Z9,20,$$,(604) 742-3311
+The Flying Pig,4.0 star rating,102 Water StreetVancouver, BC V6B 2K8,558,$$,(604) 559-7968
+Medina Cafe,4.0 star rating,780 Richards StreetVancouver, BC V6B 3A4,1572,$$,(604) 879-3114
+Fanny Bay Oyster Bar & Shellfish Market,4.5 star rating,762 Cambie StreetVancouver, BC V6B 2R5,185,$$,(778) 379-9510
+Maizal,4.5 star rating,2815 Main StreetVancouver, BC V5T 3G1,25,$,(604) 709-0813
+The Rise Eatery,4.0 star rating,3121 Granville StreetVancouver, BC V6H 3K1,13,$$,(604) 559-8280
+Mukja Korean Cuisine,2.5 star rating,3211 W BroadwayVancouver, BC V6K 2H5,12,$$,(604) 565-5006
+Miku,4.5 star rating,200 Granville StreetVancouver, BC V6C 1S4,919,$$$,(604) 568-3900
+Alibi Room,4.5 star rating,157 Alexander StreetVancouver, BC V6A 1B8,460,$$,(604) 623-3383
+Tavola,4.5 star rating,1829 Robson StreetVancouver, BC V6G 3E4,261,$$$,(604) 606-4680
+St Lawrence Restaurant,4.5 star rating,269 Powell StreetVancouver, BC V6A 1G3,5,$$$$,(604) 620-3800
+Nomad,4.0 star rating,3950 Main StreetVancouver, BC V5V 3P2,125,$$,(604) 708-8525
+Blue Water Cafe,4.5 star rating,1095 Hamilton StVancouver, BC V6B 5T4,649,$$$$,(604) 688-8078
+Nabebugyo,4.0 star rating,3190 Cambie StreetVancouver, BC V5Z 2W2,37,$$,(604) 710-5039
+Twisted Fork,4.0 star rating,1147 Granville StreetVancouver, BC V6Z 1M1,789,$$,(604) 568-0749
+Marutama Ra-men / Central Library,4.0 star rating,270 Robson StreetVancouver, BC V6B 0E7,13,$$,(604) 687-0487
+Crowbar Restaurant,4.0 star rating,646 KingswayVancouver, BC V5T 3K4,27,$$,(604) 336-2769
+Doughgirls,4.5 star rating,3322 Shrum LaneVancouver, BC V6S 0B1,28,$,(604) 333-5474
+Maizal,4.5 star rating,2815 Main StreetVancouver, BC V5T 3G1,25,$,(604) 709-0813
+Six Acres,4.0 star rating,203 Carrall StreetVancouver, BC V6B 2J2,212,$$,(604) 488-0110
+Ignite Pizzeria,4.0 star rating,2588 Main StreetVancouver, BC V5T,7,None,(604) 564-2588
+The Poke Guy,4.5 star rating,420 Richards StreetVancouver, BC V6B 2Z4,104,$$,(778) 379-8455
+Saj&Co,4.5 star rating,813 Davie StreetVancouver, BC V6Z 1B7,177,$$,(604) 559-2447
+D’oro Gelato e Caffè,4.0 star rating,1222 Robson StreetVancouver, BC V6E 1C1,134,$,(604) 694-0108
+Hokkaido Ramen Santouka,4.0 star rating,558 W BroadwayVancouver, BC V5Z 1E9,67,$$,(604) 565-1770
+Rhinofish Noodle Bar,3.5 star rating,550 Main StreetVancouver, BC V6A 2T9,29,$$,(604) 428-3389
+Ritual,4.0 star rating,774 Denman StreetVancouver, BC V6G 1C9,79,$$,(604) 428-7722
+Plaisir Sucré,4.5 star rating,2668 Arbutus StreetVancouver, BC V6J 5L8,50,$,(604) 736-0515
+Alibi Room,4.5 star rating,157 Alexander StreetVancouver, BC V6A 1B8,460,$$,(604) 623-3383
+Mukja Korean Cuisine,2.5 star rating,3211 W BroadwayVancouver, BC V6K 2H5,12,$$,(604) 565-5006
+Chef Lien,4.5 star rating,1331 Robson StreetVancouver, BC V6E 2B1,10,$$,(604) 559-5436
+Doughgirls,4.5 star rating,3322 Shrum LaneVancouver, BC V6S 0B1,28,$,(604) 333-5474
+Jam Cafe on Beatty,4.5 star rating,556 Beatty StreetVancouver, BC V6B 2L3,392,$$,(778) 379-1992
+TAKO,4.0 star rating,601 Expo BoulevardVancouver, BC V6B 0J5,72,$,(778) 379-7010
+Rodney’s Oyster House,4.0 star rating,1228 Hamilton StreetVancouver, BC V6B 6L2,538,$$,(604) 609-0080
+Oddfish,4.0 star rating,1889 W 1st AvenueVancouver, BC V6J 5B8,5,None,(604) 564-6330
+Cactus Club Cafe,4.0 star rating,1085 Canada PlaceVancouver, BC V6C 0C3,399,$$,(604) 620-7410
+L’Abattoir,4.0 star rating,217 Carrall StreetVancouver, BC V6B 2J1,400,$$$,(604) 568-1701
+Chi Modern Vietnamese Kitchen,4.0 star rating,1935 W 4th AvenueVancouver, BC V6J 1M7,51,$$,(604) 336-3010
+Ash Street Bistro,4.5 star rating,611 W 41st AvenueVancouver, BC V5Z,7,$$,(604) 240-8550
+Sombreros Mexican Products & Taqueria,5.0 star rating,1290 Howe StreetVancouver, BC V6Z,5,$$,(604) 800-0854
+Temp°,4.0 star rating,666 E BroadwayVancouver, BC V5T 1X6,2,$$$$,
+Hikari Cafe,4.0 star rating,5701 Granville StreetVancouver, BC V6M 4J7,39,$$,(604) 269-3682
+Lupo,4.5 star rating,869 Hamilton StreetVancouver, BC V6B 2R7,261,$$$,(604) 569-2535
+Ask For Luigi,4.0 star rating,305 Alexander StreetVancouver, BC V6A 1C4,283,$$,(604) 428-2544
+Lucha Verde,4.5 star rating,1326 Davie StreetVancouver, BC V6E 1N6,6,$$,(604) 669-8620
+The Bottleneck,4.0 star rating,870 Granville StreetVancouver, BC V6B 2C9,58,$$,(604) 739-4540
+Guu Original Thurlow,4.0 star rating,838 Thurlow StreetVancouver, BC V6E 1W2,638,$$,(604) 685-8817
+Whiskey Six BBQ,4.0 star rating,826 Renfrew StreetVancouver, BC V5K 4B6,17,$$,(604) 428-4050
+La Catrina Tacos,4.5 star rating,1187 Denman StreetVancouver, BC V6G 2N1,62,$,(604) 566-9503
+Sushi Aji,3.5 star rating,3339 KingswayVancouver, BC V5R 5K6,8,$$,(604) 434-6319
+Takumi Japanese Restaurant,3.5 star rating,4422 W 10th AvenueVancouver, BC V6R 2H9,21,$$,(604) 730-0330
+Yui Japanese Bistro,4.5 star rating,102-1185 W Georgia StreetVancouver, BC V6E 4E6,36,$$,(604) 559-7772
+Brix & Mortar,4.0 star rating,1138 Homer StreetVancouver, BC V6B 2X6,176,$$$,(604) 915-9463
+The Mackenzie Room,4.5 star rating,415 Powell StreetVancouver, BC V6A 1G7,76,$$$,(604) 253-0705
+Gyo Para Gyoza & Ramen Bar,4.0 star rating,2120 W BroadwayVancouver, BC V6K 2C8,14,$$,(604) 288-2941
+Rajio Japanese Public House,4.0 star rating,3763 W 10th AvenueVancouver, BC V6R 2G5,82,$$,(604) 558-1679
+L’Abattoir,4.0 star rating,217 Carrall StreetVancouver, BC V6B 2J1,400,$$$,(604) 568-1701
+Pourhouse Restaurant,4.0 star rating,162 Water StreetVancouver, BC V6B 1B2,425,$$,(604) 568-7022
+Jam Cafe on Beatty,4.5 star rating,556 Beatty StreetVancouver, BC V6B 2L3,392,$$,(778) 379-1992
+Chickpea,3.5 star rating,4298 Main StreetVancouver, BC V5V 3P9,28,$$,(778) 385-2382
+Jiu Jiang Japanese Restaurant,4.5 star rating,5707 Balsam StreetVancouver, BC V6M 4B8,4,$$,(778) 379-8858
+The Poke Guy,4.5 star rating,420 Richards StreetVancouver, BC V6B 2Z4,104,$$,(778) 379-8455
+Kissa Tanto,4.0 star rating,263 E Pender StreetVancouver, BC V6A 1T8,99,$$$,(778) 379-8078
+TAKO,4.0 star rating,601 Expo BoulevardVancouver, BC V6B 0J5,72,$,(778) 379-7010
+Cupsushi & Burrito,4.0 star rating,903 Denman StreetVancouver, BC V6G 2L9,4,$,(604) 692-0055
+Hokkaido Ramen Santouka,4.0 star rating,1690 Robson StreetVancouver, BC V6G 1C7,765,$$,(604) 681-8121
+Edible Canada At the Market,3.5 star rating,1596 Johnston StreetVancouver, BC V6H 3R9,356,$$,(604) 682-6681
+Number e food,4.5 star rating,1308 Burrard StreetVancouver, BC V6Z 2B7,79,$$,(604) 559-6863
+Grub,4.0 star rating,4328 Main StreetVancouver, BC V5V 3P9,134,$$,(604) 876-8671
+Ignite Pizzeria,4.0 star rating,2588 Main StreetVancouver, BC V5T,7,None,(604) 564-2588
+Saj&Co,4.5 star rating,813 Davie StreetVancouver, BC V6Z 1B7,177,$$,(604) 559-2447
+Yaletown L’Antipasto,4.0 star rating,1127 Mainland StreetVancouver, BC V6B 5P2,264,$$,(604) 558-1174
+Dumpling House,5.0 star rating,3141 KingswayVancouver, BC V5R 5J9,19,$,(778) 588-1227
+Wang’s Shanghai Cuisine,4.0 star rating,3328 KingswayVancouver, BC V5T 5L1,52,$,(604) 428-6818
+Neptune Chinese Kitchen,3.0 star rating,1136 Alberni StreetVancouver, BC V6E 1A5,9,$$,(604) 682-0011
+Black Rice Izakaya,4.0 star rating,782 Cambie StreetVancouver, BC V6B 2R5,124,$$,(778) 379-0416
+Zefferelli’s,4.0 star rating,1136 Robson StreetVancouver, BC V6E 1B2,270,$$,(604) 687-0655
+Barra 41,4.5 star rating,2407 W 41st AvenueVancouver, BC V6M 2A5,11,$$,(604) 263-1774
+Raviolino,4.5 star rating,2822 W 4th AvenueVancouver, BC V6K 1R2,56,$,(604) 736-0772
+Verdura,3.5 star rating,2509 Main StreetVancouver, BC V5T 3E5,8,$$,(236) 999-9905
+Le Crocodile Restaurant,4.5 star rating,909 Burrard StreetVancouver, BC V6Z 2N2,282,$$$$,(604) 669-4298
+Yuji’s From Japan,4.0 star rating,2083 Alma StreetVancouver, BC V6R 4N6,30,$$,(604) 428-4688
+Peaceful Restaurant Lite,4.0 star rating,1183 Davie StreetVancouver, BC V6E 1N2,39,$$,(778) 379-7238
+Masayoshi,4.0 star rating,4376 Fraser StreetVancouver, BC V5V 4G3,53,$$$$,(604) 428-6272
+Hi Five 24 Baked and Fried Chicken,3.0 star rating,203 SE Marine DriveVancouver, BC V5X 3L6,9,$$,(604) 327-4849
+Xi Yan Seafood Restaurant,5.0 star rating,5701 Granville StreetVancouver, BC V6M 4J7,3,$$,(778) 379-2218
+Cactus Club Cafe,4.0 star rating,1085 Canada PlaceVancouver, BC V6C 0C3,399,$$,(604) 620-7410
